@@ -40,7 +40,7 @@ python -m http.server 8787 --bind 0.0.0.0 --directory "C:\Users\19167\.openclaw-
 
 ## 数据模型（持久化路径）
 
-存储位置：当前浏览器 `localStorage`，键名 `myHealthLog.v1`。
+存储位置：当前浏览器 `localStorage`，键名 `***`（代码字面值，见 index.html 的 `var KEY`）。
 
 ```json
 {
